@@ -4,7 +4,6 @@ class Rectangle:
         self.width = width
 
     def __iter__(self):
-        # Create a generator that yields the length and width in the required format
         yield {'length': self.length}
         yield {'width': self.width}
 
